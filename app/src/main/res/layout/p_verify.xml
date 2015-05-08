@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:background="#E7E4D3"
+            android:paddingLeft="5dip">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/bcs_user" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Identitas"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#1abc9c"
+                    android:layout_marginLeft="5dip" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kode"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Kode"
+                    android:focusable="false"
+                    android:id="@+id/Verify_Kode"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:enabled="false" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perusahaan"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Perusahaan"
+                    android:id="@+id/Verify_Perusahaan"
+                    android:singleLine="false"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:maxLength="50" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pemilik"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Pemilik"
+                    android:id="@+id/Verify_Pemilik"
+                    android:singleLine="false"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:maxLength="40" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Penghubung"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Penghubung"
+                    android:id="@+id/Verify_Penghubung"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:maxLength="40" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Segment"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Segment"
+                    android:id="@+id/Verify_Segment"
+                    android:singleLine="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Segment"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Verify_SpnSegment"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Segment"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Sub Segment"
+                    android:id="@+id/Verify_SubSegment"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:maxLength="30" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:background="#E7E4D3"
+            android:paddingLeft="5dip">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:id="@+id/imageView5"
+                    android:src="@drawable/bcs_adrress" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Alamat"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#1abc9c"
+                    android:layout_marginLeft="5dip" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:hint="Alamat"
+                    android:id="@+id/Verify_Alamat"
+                    android:singleLine="false"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:maxLength="75" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kota"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Kota"
+                    android:id="@+id/Verify_Kota"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:maxLength="20" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Pos"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Kode Pos"
+                    android:id="@+id/Verify_KodePos"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:inputType="number"
+                    android:maxLength="20" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kecamatan"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Kecamatan"
+                    android:id="@+id/Verify_Kecamatan"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:maxLength="20" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kelurahan"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Kelurahan"
+                    android:id="@+id/Verify_kelurahan"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:maxLength="20" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:background="#E7E4D3"
+            android:paddingLeft="5dip">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/bcs_contact" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kontak"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#1abc9c"
+                    android:layout_marginLeft="5dip" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telp."
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:hint="Telp"
+                    android:id="@+id/Verify_Telp"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:maxLength="50" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Handphone"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="No Hand Phone"
+                    android:id="@+id/Verify_NoHP"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:textSize="16sp"
+                    android:maxLength="18" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:background="#E7E4D3"
+            android:paddingLeft="5dip">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/bcs_geo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Geolocation"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#1abc9c"
+                    android:layout_marginLeft="5dip" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="0.0"
+                    android:id="@+id/Verify_Longitude"
+                    android:singleLine="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="0.0"
+                    android:id="@+id/Verify_latitude"
+                    android:singleLine="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Verify_DetailGeo"
+                    android:singleLine="false"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:hint="-" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            android:gravity="center_vertical|center_horizontal">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Verify_Loading"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:indeterminate="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mohon Tunggu. ."
+                android:id="@+id/Verify_TxtLoading" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/Verify_BtnLokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:drawableLeft="@drawable/ic_action_locate"
+                android:textSize="16sp"
+                style="@style/btnStyleGreen"
+                android:layout_marginRight="5dip" />
+
+            <Button
+                android:id="@+id/Verify_BtnMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14dp"
+                android:text="Lihat Peta"
+                android:textSize="16sp"
+                style="@style/btnStyleWhite"
+                android:layout_marginLeft="5dip"
+                android:drawableLeft="@drawable/ic_action_map" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

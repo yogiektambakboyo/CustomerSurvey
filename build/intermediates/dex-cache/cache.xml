@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-19d61bd140d7d0e15d3acee7edbd09e836102070.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-3bcb9a526dbde87cbe4e4f20df6099d90a45ff52.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-7369d6618556305531391c90e0ed80a3dcf542f3.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-1f4c2a7756cc26d30c88eeca0261c5d6c35dafe1.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-697740aeae682ec5acc750e8c233cb158a438558.jar" />
+    </item>
+    <item
+        jar="C:\Users\IT-SUPERMASTER\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.3.0\2e7bc7033dc2c8423e661224171b3133fb155b28\okhttp-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\okhttp-2.3.0-00819f455536da9dbc7d024d724b89fdfd564955.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-1e1dc59101fe240b46f265a0221f1562ff04ce4b.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-785f7261f04535d0611a9ca939b39543f6134621.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-5a80294d968e7bf5aa1f64cc4b80a80f9054de40.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-259fc7cac5ee509ef9fd2ec180aa618c4a564e3b.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-127c102e836855c3f6e61409228cc9f4b40f9e05.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-9d8d2d5682130b20f4a0cd4c762a4ed1a9fc26b3.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-ca38d5ada352336d1c49ad49832382d295425bbc.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-5f7352f1a7bc4eacf87ca610f530a42073b3759b.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-c62983ab6629177d290ab5af3a5d83a2e6a7e7fc.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-ee3bf5c78b50a28ce150ae0310f098f42ce839cf.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-94b9893131a8eb11cefa89daf80b7c8d242c9233.jar" />
+    </item>
+    <item
+        jar="C:\Users\IT-SUPERMASTER\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-db0e9a15f22faf7e8371e1fd53d84de2f98d04d0.jar" />
+    </item>
+    <item
+        jar="E:\Android-SDK\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-483b9cc6f9ef389d06d1277e4912b9cf5e214929.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-f2c97f3590b11854a5b89633258efb912fe571dd.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-0a65b82090d647eaa73be43b0dce15e6cc2d8c3a.jar" />
+    </item>
+    <item
+        jar="C:\Users\IT-SUPERMASTER\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.3.0\1b355f73402020c5a0dcca58affc3ec3dfeabac1\okio-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\okio-1.3.0-91c37a6122cc28c7e0ab923119074fffeaa4dc51.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\jp.wasabeef\recyclerview-animators\1.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="55b967d31b15d92052a5ea2e407378b72d4764a7">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-c5d2b03d30cf22e5d0553f6b935691d93844aa4d.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.oguzdev\CircularFloatingActionMenu\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-6271bcbf2b35ad8908f22f6cca9936d2f4808116.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-e3b10c40917698dbc6ed2c77e9a5eec1ff0c6f32.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-e9b088b034e118f1fd4db8490c768d8deae7766a.jar" />
+    </item>
+    <item
+        jar="C:\Users\IT-SUPERMASTER\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\gson-2.3.1-c035a8a7901d9a577b5eff2d5680276c2633c16b.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-c0fda0b09bb0c2d810c4a56645daa10b9445d339.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-eff725e7c53d5ab0192a7bf34281206cbc706ef1.jar" />
+    </item>
+    <item
+        jar="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="E:\Yogi\Developer\CustomerSurvey\app\build\intermediates\pre-dexed\debug\classes-f420592c1659e229b4cc2a6ef79f7fa8156343a0.jar" />
+    </item>
+
+</items>

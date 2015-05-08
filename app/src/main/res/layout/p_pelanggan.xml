@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dip" android:layout_marginBottom="3dip"
+            android:layout_gravity="center" android:background="#1abc9c">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip" android:layout_marginBottom="3dip"
+                android:layout_gravity="center|left" android:layout_marginLeft="5dip" android:gravity="left">
+                <ImageView
+                    android:layout_width="36dip"
+                    android:layout_height="36dip"
+                    android:id="@+id/Pelanggan_Icon" android:src="@drawable/bcs_pelanggan"
+                    android:layout_marginTop="7dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:text="PELANGGAN"
+                    android:id="@+id/textView" android:layout_gravity="center|left" android:textSize="23sp"
+                    android:textColor="@android:color/white" android:textStyle="bold"
+                    android:gravity="center_vertical" android:layout_marginLeft="5dip"/>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_gravity="center|right" android:gravity="right"
+                android:layout_marginRight="3dip">
+
+                <ImageView
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:id="@+id/Pelanggan_ImgTmbah" android:layout_gravity="center"
+                    android:layout_marginRight="10dip" android:src="@drawable/imgbtn_plus" />
+
+                <ImageView
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:id="@+id/Pelanggan_ImgFilter" android:layout_gravity="center"
+                    android:layout_marginRight="10dip" android:src="@drawable/imgbtn_filter" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="2dip">
+            <EditText
+                android:id="@+id/Pelanggan_Search"
+                android:layout_width="220dip"
+                android:layout_height="40sp" android:singleLine="true" android:textSize="14sp"
+                android:hint="Masukkan Kata Kunci" android:maxLength="50">
+            </EditText>
+            <ImageView
+                android:layout_width="32dip"
+                android:layout_height="32dip"
+                android:id="@+id/imageView" android:background="@drawable/bcs_search"
+                android:layout_marginLeft="10dip" android:layout_gravity="center|right"
+                android:layout_marginRight="5dip"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/PelangganListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Pelanggan_Search" android:layout_above="@+id/Pelanggan_LayoutData"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:paddingTop="3dip" android:orientation="horizontal"
+            android:gravity="center_horizontal|left" android:paddingBottom="3dip"
+            android:background="#1abc9c" android:id="@+id/Pelanggan_LayoutData" android:baselineAligned="false">
+
+
+            <TextView
+                android:id="@+id/OperatorCode"
+                android:text="Total Pelanggan :"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true" android:layout_marginLeft="5dip"
+                android:layout_marginBottom="5dip" android:textStyle="bold" android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserName"
+                android:id="@+id/Pelanggan_TxtData" android:layout_toRightOf="@+id/OperatorCode"
+                android:layout_alignParentBottom="true" android:textStyle="bold"
+                android:textColor="@android:color/white" android:layout_marginBottom="5dip"
+                android:layout_marginLeft="2dip" android:layout_marginRight="5dip"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

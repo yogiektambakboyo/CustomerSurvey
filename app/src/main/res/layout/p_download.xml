@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:background="#fafffb" android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="64dip" android:layout_marginBottom="10dip"
+        android:layout_gravity="center" android:background="#1abc9c">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bcs_download" android:layout_gravity="center"
+            android:layout_marginLeft="5dip"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="64dip"
+            android:text="DOWNLOAD"
+            android:textSize="25sp"
+            android:textColor="@android:color/white" android:textStyle="bold"
+            android:gravity="center_vertical|left" android:layout_gravity="center" android:layout_marginLeft="10dip"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingTop="5dip" android:paddingBottom="5dip">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+            android:layout_marginBottom="5dip">
+            <TextView
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="Cabang" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Download_SpnCabang" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingTop="5dip" android:paddingBottom="5dip">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+            android:layout_marginBottom="5dip">
+            <TextView
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="Koneksi" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SpnKoneksi" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Download_PbLoading"
+            android:layout_gravity="center"
+            android:indeterminate="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohon Tunggu . ."
+            android:id="@+id/Download_Loading"
+            android:layout_marginLeft="10dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status : "
+            android:id="@+id/Download_Status"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingTop="10dip" android:paddingBottom="10dip"
+        android:layout_marginTop="20dip" android:paddingLeft="20dip" android:paddingRight="20dip">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:id="@+id/Download_BtnSubmit" android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center" android:layout_weight="1" style="@style/btnStyleGreen"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

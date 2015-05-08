@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:longClickable="false" android:background="@android:color/white">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:layout_gravity="center" android:src="@drawable/bcs_header"
+            android:layout_marginTop="15dip" android:layout_marginBottom="15dip"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2" android:src="@drawable/bcs_user" android:layout_marginRight="7dip"/>
+        <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Login_InputUsername" android:layout_gravity="center"
+                android:hint="Username" android:layout_marginTop="10dip" android:layout_marginBottom="10dip"
+                android:singleLine="true"
+                android:digits="/0123456789qwertzuiopasdfghjklyxcvbnmQWERTZUIOPASDFGHJKLYXCVBNM" android:maxLength="15"
+                android:textColor="#1abc9c"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="15dip" android:layout_marginTop="5dip">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3" android:src="@drawable/bcs_pass" android:layout_marginRight="10dip"/>
+        <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Login_InputPassword" android:layout_gravity="center" android:password="true"
+                android:hint="Password" android:layout_marginTop="10dip" android:layout_marginBottom="10dip"
+                android:singleLine="true"
+                android:digits="/0123456789qwertzuiopasdfghjklyxcvbnmQWERTZUIOPASDFGHJKLYXCVBNM" android:maxLength="15"
+                android:longClickable="true" android:textColor="#1abc9c"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="15dip" android:layout_marginTop="5dip">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bcs_branch" android:layout_marginRight="10dip"/>
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Login_CmbCabang" android:layout_gravity="center" android:password="true"
+            android:layout_marginTop="10dip" android:layout_marginBottom="10dip"/>
+    </LinearLayout>
+
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/Login_BtnSubmit" android:layout_gravity="center"
+            android:textStyle="bold" style="@style/btnStyleGreen"/>
+</LinearLayout>
+
+

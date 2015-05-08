@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip" android:layout_marginBottom="2dip" android:paddingTop="2dip"
+        android:paddingBottom="2dip" android:background="@android:color/white" android:alpha="0.9">
+
+        <LinearLayout
+            android:layout_width="280dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Pelanggan_Perusahaan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:paddingTop="6dip"
+                android:paddingBottom="2dip"
+                android:layout_marginLeft="5dip" android:text="Pelanggan" android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginLeft="7dip">
+                <TextView
+                    android:layout_width="75dip"
+                    android:layout_height="wrap_content"
+                    android:text="Kode         :"
+                    android:id="@+id/TextView" android:layout_gravity="left|center_vertical" android:textSize="12sp"
+                    android:textColor="#1abc9c"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Pelanggan"
+                    android:layout_marginLeft="5dip"
+                    android:id="@+id/Pelanggan_ShipTo" android:layout_gravity="left|center_vertical" android:textSize="12sp"
+                    android:textColor="#1abc9c" android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_marginLeft="7dip">
+                <TextView
+                    android:layout_width="75dip"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat     :"
+                    android:id="@+id/DeliveryOrderList_TxtTgl" android:layout_gravity="left|center_vertical" android:textSize="12sp"
+                    android:textColor="#1abc9c"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:layout_marginLeft="5dip"
+                    android:id="@+id/Pelanggan_Alamat" android:layout_gravity="left|center_vertical"
+                    android:textColor="#1abc9c" android:textStyle="bold" android:textSize="12sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:layout_marginLeft="5dip"
+                    android:id="@+id/Pelanggan_KodeBCP" android:layout_gravity="left|center_vertical"
+                    android:textColor="#1abc9c" android:textStyle="bold" android:textSize="12sp" android:visibility="gone"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_gravity="center|right" android:gravity="end"
+            android:layout_marginRight="5dip">
+            <ImageView
+                android:layout_width="28dip"
+                android:layout_height="28dip"
+                android:id="@+id/Pelanggan_Image" android:background="@drawable/arrow_left"
+                android:layout_gravity="center|right"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

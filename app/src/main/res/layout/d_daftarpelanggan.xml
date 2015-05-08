@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="2dip"
+        android:background="#1abc9c" >
+        <EditText
+            android:id="@+id/PelangganVerifikasi_Search"
+            android:layout_width="220dip"
+            android:layout_height="40sp" android:singleLine="true" android:textSize="14sp"
+            android:hint="Masukkan Kata Kunci" android:maxLength="12"
+            android:layout_marginLeft="10dip"
+            android:textColor="#1abc9c"
+            android:layout_marginTop="5dip">
+        </EditText>
+        <ImageView
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:id="@+id/imageView" android:background="@drawable/bcs_search"
+            android:layout_marginLeft="10dip" android:layout_gravity="center|right"
+            android:layout_marginRight="5dip"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/PelangganVerifikasiListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pelanggan_Search" android:layout_above="@+id/Pelanggan_LayoutData"/>
+</LinearLayout>
